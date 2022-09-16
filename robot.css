@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.big{
+    width: 500px;
+    height: 800px;
+    background-color: rgb(9, 50, 85);
+    font-size: 0cm;
+    margin: auto;  
+}
+
+.uxi{
+    width: 70px;
+    height: 50px;
+    background: rgb(231, 105, 197);
+    margin-left: 120px;
+    display: inline-block;
+    
+}
+.uxi2{
+    width: 70px;
+    height: 50px;
+    background: rgb(231, 105, 197);
+    margin-left: 120px;
+    display: inline-block;
+    
+}
+.vuxi{
+    width: 40px;
+    height: 40px;
+    background-color:yellow;
+margin: auto;
+
+}
+.vuxi2{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+margin: auto; 
+}
+.golova{
+    width: 300px;
+    height: 200px;
+    background: rgb(231, 105, 197);
+    margin-left: 80px;  
+    margin: auto;
+    
+}
+.oko{
+    width: 70px;
+    height: 50px;
+    background: yellow;
+    margin-left: 50px;
+    display: inline-block; 
+    margin-top: 20px; 
+    
+}
+.oko2{
+    width: 70px;
+    height: 50px;
+    background: yellow;
+    margin-left: 180px;
+    display: inline-block; 
+    margin-top: -50px; 
+    
+     
+}
+.voko{
+    width: 25px;
+    height: 40px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 45px;
+    
+    /* margin-right: 20px; */
+}
+.voko2{
+    width: 25px;
+    height: 40px;
+    background-color: black;
+    margin-top: 10px; 
+    /* margin-left: 40px;  */
+   
+}
+.nos{
+    width: 80px;
+    height: 30px;
+    background: rgb(239, 228, 9);
+    margin-top: 20px;
+    margin-left: 110px;
+    /* margin: center; */
+    /* margin: auto; */
+    /* margin-right: -20px; */
+}
+.nozdr{
+    width: 10px;
+    height: 20px;
+    background: red;
+    /* margin: auto; */
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 20px;
+
+    
+}
+.nozdr2{
+    width: 10px;
+    height: 20px;
+    background: red;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.rot{
+    width: 200px;
+    height: 30px;
+    background: rgb(249, 245, 245);
+    margin: auto;
+    margin-top: 20px;
+}
+.verh{
+    width: 200px;
+    height: 15px;
+    background-color: rgb(229, 17, 17);
+    /* display: inline-block; */
+
+}
+
+.black{
+    width: 20px;
+    height: 15px;
+    margin-left: 10px;
+    background-color: black;
+    display: inline-block;
+}
+    
+.black-one{
+    width: 20px;
+    height: 15px; 
+    margin-left: 15px;
+    background-color: black;
+    display: inline-block;
+
+}
+.black-two{
+    width: 20px;
+    height: 15px;
+    margin-left: 10px;
+    background-color: black; 
+    display: inline-block;
+}
+.black3{
+    width: 20px;
+    height: 15px;
+    margin-left: 10px;
+    background-color: black; 
+    display: inline-block; 
+}
+.black4{
+    width: 20px;
+    height: 15px;
+    margin-left: 10px;
+    background-color: black; 
+    display: inline-block;
+}
+.black5{
+    width: 20px;
+    height: 15px;
+    margin-left: 5px;
+    background-color: black; 
+    display: inline-block;
+}
+
+.red{
+    width: 15px;
+    height: 15px;
+    /* margin-left: 70px; */
+    background-color: rgb(236, 13, 13); 
+    display: inline-block; 
+
+}
+.red2{
+    width: 20px;
+    height: 15px;
+    background-color: rgb(236, 13, 13); 
+    display: inline-block; 
+    margin-left: 20px;
+}
+.red3{
+    width: 20px;
+    height: 15px;
+    background-color: rgb(236, 13, 13); 
+    display: inline-block; 
+    margin-left: 10px;
+}.red4{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(236, 13, 13); 
+    display: inline-block; 
+    margin-left: 10px;
+}.red5{
+    width: 20px;
+    height: 15px;
+    background-color: rgb(236, 13, 13); 
+    display: inline-block; 
+    margin-left: 10px;
+}.red6{
+    width: 20px;
+    height: 15px;
+    background-color: rgb(236, 13, 13); 
+    display: inline-block; 
+    margin-left: 10px;
+}.red7{
+    width: 20px;
+    height: 15px;
+    background-color: rgb(236, 13, 13); 
+    display: inline-block; 
+    margin-left: 10px;
+}
+.hea{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(231, 105, 197);
+    margin-top: 0px;
+    margin: auto;
+    display: inline-block;
+    margin-left: 215px; 
+
+}
+.hea1{
+    width: 80px;
+    height: 10px;
+    background-color: yellow;
+    margin-top: 10px;
+    display: inline-block;
+   /* margin-left: 20px; */
+
+}
+.tuha{
+    width: 200px;
+    height: 250px;
+    background: rgb(231, 105, 197);;
+    margin: auto;
+    /* display: inline-block; */
+    border-radius: 10px;
+
+}
+.lapa1{
+    width: 70px;
+    height: 50px;
+    background: rgb(231, 105, 197);;
+
+    display: inline-block;
+margin-top: 30px;
+margin-left: -70px;
+border-radius: 10px 0 0 10px;
+
+}
+.lapa11{
+    width: 20px;
+    height: 50px;
+    background-color: rgb(4, 4, 4);
+    display: inline-block;
+/* margin-top: 30px; */
+/* margin-left: px; */
+border-radius: 10px 0 0 10px;
+}
+.lapa2{
+    width: 70px;
+    height: 50px;
+    background: rgb(231, 105, 197);;
+
+    display: inline-block;
+margin-top: -50px;
+margin-left: 200px;
+border-radius: 0px 10px 10px 0px;
+
+}
+.lapa21{
+    width: 20px;
+    height: 50px;
+    background-color: rgb(4, 4, 4);
+    display: inline-block;
+/* margin-top: -5px; */
+margin-left: 50px;
+border-radius: 0px 10px 10px 0px;
+
+}
+.lapa3{
+    width: 50px;
+    height: 70px;
+    background: rgb(231, 105, 197);;
+
+    display: inline-block;
+margin-top: 20px;
+margin-left: 30px;
+border-radius:0px 0px 10px 10px;
+
+}
+.lapa31{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(4, 4, 4);
+    display: inline-block;
+margin-top: 50px;
+border-radius: 0px 0 10px 10px;
+}
+
+.lapa4{
+    width: 50px;
+    height: 70px;
+    background: rgb(231, 105, 197);;
+
+    display: inline-block;
+margin-top: 30px;
+margin-left: 45px;
+border-radius:0px 0px 10px 10px;
+
+}
+.lapa41{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(6, 7, 6);
+    display: inline-block;
+margin-top: 50px;
+border-radius: 0px 0 10px 10px;
+}
+.pup{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 50%;
+margin-top: 40px;
+margin-left: 50px;
+
+}
