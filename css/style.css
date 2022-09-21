@@ -7,3 +7,27 @@
     border: none;
     outline: none;
 }
+.wrap{
+    width: 1000px;
+    background: #E6E6E6;
+}
+.blok-big,.blok-big2{
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+
+}
+.blok-big1{
+float: right;
+}
+.blok-big2{
+float: left;
+}
+.clear{
+    clear: both;
+}
+.number{
+    color:#FFFFFF;
+    padding: 63px;
+    margin: auto;
+}
