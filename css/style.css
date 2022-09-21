@@ -7,27 +7,45 @@
     border: none;
     outline: none;
 }
-.wrap{
+.wrap,.wrap2{
     width: 1000px;
-    background: #E6E6E6;
+    background: #e2e914;
 }
-.blok-big,.blok-big2{
+
+.blok-big,.blok-big2,.blok-big3{
     width: 200px;
     height: 200px;
     background: #FC8F8F;
 
 }
-.blok-big1{
-float: right;
+.blok-big,.blok-big3{
+float: left;
 }
 .blok-big2{
-float: left;
+float: right;
 }
 .clear{
     clear: both;
 }
-.number{
+.number,.number2,.number5{
     color:#FFFFFF;
     padding: 63px;
     margin: auto;
+    height: 75px;
+    width: 200px;
+    margin-bottom: 62px;
+}
+
+/* .wrap2{
+    margin-top: 50px;
+} */
+.blok-big3,.blok-smoll{
+    margin-top: 300px;
+
+}
+.blok-smoll{
+    width: 100px;
+    height: 100px;
+    background: #FC8F8F;
+float: right;
 }
