@@ -7,28 +7,35 @@
     border: none;
     outline: none;
 }
-.wrap,.wrap2{
+.wrap,.wrap2,.wrap3{
     width: 1000px;
-    background: #e2e914;
+    background: #E6E6E6;
     margin: auto;
+    margin-bottom: 50px;
+    
 }
 
-.blok-big,.blok-big2,.blok-big3{
+.blok-big,.blok-big2,.blok-big3,.blok-big4,
+.blok-big5,.blok-big6,.blok-big7{
     width: 200px;
     height: 200px;
     background: #FC8F8F;
 
 }
-.blok-big,.blok-big3{
+.blok-big,.blok-big3,.blok-big4,.blok-big5{
 float: left;
 }
-.blok-big2{
+.blok-big2
+{
+/* .blok-smoll4,
+.blok-smoll3,
+.blok-smoll2{ */
 float: right;
 }
 .clear{
     clear: both;
 }
-.number,.number2,.number5{
+.number,.number2,.number5,.number4,.number3,.number1{
     color:#FFFFFF;
     padding: 63px;
     margin: auto;
@@ -36,21 +43,47 @@ float: right;
     width: 200px;
     margin-bottom: 62px;
 }
+.number5s,.number4s,.number3s,.number2s{
+    color:#FFFFFF;
+    margin: auto;
+    height: 37.5px;
+    width: 100px;
+
+}
 
 .wrap2{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin: auto;
 }
-/* .blok-big3,.blok-smoll{
-    margin-top: 300px;
 
-} */
-.blok-smoll{
+.blok-smoll5,.blok-smoll4,.blok-smoll3,.blok-smoll2{
     width: 100px;
     height: 100px;
     background: #FC8F8F;
-float: right;
+    float: right;
+
 }
-blok-big3{
-    float: left;
+.blok-smoll4, .blok-smoll3,.blok-smoll2,
+.blok-big7{
+    margin-right: 15px;
+    
+}
+
+.number5s,.number4s,.number3s,.number2s{
+    height: 37.5px;
+    width: 100px;
+    color: #ffff;
+    margin: auto;
+    margin-top: 31px;
+    margin-bottom: 31.5px;
+}
+
+.blok-big6,.blok-big7{
+    float: right;
+}
+.wrap3{
+    margin-top: 50px;
+}
+.blok-big5{
+    margin-left: 15px;
 }
