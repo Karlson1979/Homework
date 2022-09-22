@@ -10,6 +10,7 @@
 .wrap,.wrap2{
     width: 1000px;
     background: #e2e914;
+    margin: auto;
 }
 
 .blok-big,.blok-big2,.blok-big3{
@@ -36,16 +37,20 @@ float: right;
     margin-bottom: 62px;
 }
 
-/* .wrap2{
+.wrap2{
     margin-top: 50px;
-} */
-.blok-big3,.blok-smoll{
+    margin: auto;
+}
+/* .blok-big3,.blok-smoll{
     margin-top: 300px;
 
-}
+} */
 .blok-smoll{
     width: 100px;
     height: 100px;
     background: #FC8F8F;
 float: right;
+}
+blok-big3{
+    float: left;
 }
