@@ -35,7 +35,7 @@
 }
 .logo1{
     float: left;
-    margin-left: 405px;
+    /* margin-left: 405px; */
     /* display: inline-block; */
    
 }
@@ -46,20 +46,22 @@
     border: 2px solid #F13C6E;
     background:#ffff;
     display: inline-block;
-    float: right;
-    padding: 12px;
+    
+    /* padding: 12px; */
     
 }
 .tel{
     /* margin-left: 515px; */
+    /* float: right; */
     margin-right: 40px;
     /* display: inline-block; */
-    margin-top: 100px;
+    /* margin-top: 100px; */
+   
 }
     
 
 .btn{
     background:#ffff;
     /* display: inline-block; */
+    float: right;
 }
-
