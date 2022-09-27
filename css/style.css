@@ -14,12 +14,10 @@
 
 .container{
     max-width: 1148px;
-    margin: auto;
     background: #E5E5E5;
-    /* position: relative; */
-
+    margin: auto;
 }
-.menu{
+.menu,.main-btn{
     display: inline-block;
    }
  
@@ -30,13 +28,14 @@
     
 }
 .section-rekvizit{
+    margin: auto;
     /* display: inline-block; */
-
 }
 .logo1{
     float: left;
-    /* margin-left: 405px; */
-    /* display: inline-block; */
+    margin-left: 405px;
+    margin-top: 20px;
+    display: inline-block;
    
 }
 .main-btn{
@@ -46,22 +45,27 @@
     border: 2px solid #F13C6E;
     background:#ffff;
     display: inline-block;
-    
-    /* padding: 12px; */
+    float: right;
+    margin-right: 405px;
+    /* margin-bottom: 40px; */
+    margin-top: -30px;
     
 }
+
 .tel{
     /* margin-left: 515px; */
-    /* float: right; */
-    margin-right: 40px;
-    /* display: inline-block; */
-    /* margin-top: 100px; */
-   
-}
     
-
-.btn{
-    background:#ffff;
-    /* display: inline-block; */
-    float: right;
 }
+.tel1{
+    height: 19px;
+    width: 127px;
+    float: right;
+    margin-right: 615px;
+    display: inline-block;
+    margin-top: 50px;
+}
+ .txt{
+    margin-top: 10px;
+    margin-left: 27px;
+ }   
+
