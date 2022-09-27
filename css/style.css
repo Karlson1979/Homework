@@ -16,52 +16,5 @@
     max-width: 1148px;
     margin: auto;
     background: #E5E5E5;
-    /* position: relative; */
-
-}
-.menu{
-    display: inline-block;
-   }
- 
-
-
-.link{
-    color: black; 
-    
-}
-.section-rekvizit{
-    /* display: inline-block; */
-
-}
-.logo1{
-    float: left;
-    /* margin-left: 405px; */
-    /* display: inline-block; */
    
-}
-.main-btn{
-    width: 170px;
-    height: 40px;
-    border-radius: 40px;
-    border: 2px solid #F13C6E;
-    background:#ffff;
-    display: inline-block;
-    
-    /* padding: 12px; */
-    
-}
-.tel{
-    /* margin-left: 515px; */
-    /* float: right; */
-    margin-right: 40px;
-    /* display: inline-block; */
-    /* margin-top: 100px; */
-   
-}
-    
 
-.btn{
-    background:#ffff;
-    /* display: inline-block; */
-    float: right;
-}
