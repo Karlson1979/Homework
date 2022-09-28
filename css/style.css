@@ -33,8 +33,10 @@ ul{
     
 }
 .section-rekvizit{
-    margin: auto;
-    /* display: inline-block; */
+    /* margin: auto; */
+    display: inline-block;
+    height: 80px;
+    width: 258px;
 }
 .logo1{
     float: left;
@@ -55,19 +57,21 @@ ul{
     border: 2px solid #F13C6E;
     background:#ffff;
     display: inline-block;
-    /* float: right; */
-    margin-right: 405px;
+    float: right;
+    /* margin-right: 405px; */
+    padding-left: 12px 49px;
     /* margin-bottom: 40px; */
-    /* margin-top: -30px; */
+    /* margin-top: 10px; */
     
 }
 
-.tel1{
+.tel{
     /* margin-left: 515px; */
     display: inline-block;
-    margin-right: 40px;
+    /* /* margin-right: 40px; */
     margin-top: 50px;
-    
+    margin-right: 40px;
+     
 }
 /* .tel1{
     height: 19px;
@@ -85,4 +89,48 @@ hr{
 
     border: 1px solid #EFEFEF;
     margin-top: 40px;
+}
+.menu1{
+    
+    margin-top: 30px;
+    display: inline-block;
+    margin: 20px;
+}
+.bg{
+    height: 604px;
+    background: url(../images/bg.png);
+}
+.namber{
+    float: right;
+    /* margin-right: 405px; */
+display: inline-block;
+
+}
+.inscription{
+    height: 219px;
+    width: 308px;
+    
+}
+.super{
+    color: #ffff;
+    padding-top: 192px;
+    margin-left: 405px;
+}
+.txt1{
+    color: #ffff;
+    margin-top: 75px;
+    margin-left: 405px;
+}
+.btn{
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid #ffff;;
+    background:#F13C6E
+    display: inline-block;
+    float: right;
+    /* margin-right: 405px; */
+    padding: 12px 49px;
+    /* margin-bottom: 40px; */
+    /* margin-top: 10px; */
 }
