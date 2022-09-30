@@ -58,7 +58,7 @@ ul{
     background:#ffff;
     display: inline-block;
     float: right;
-    /* margin-right: 405px; */
+    margin-right: 405px;
     padding-left: 12px 49px;
     /* margin-bottom: 40px; */
     /* margin-top: 10px; */
@@ -71,6 +71,7 @@ ul{
     /* /* margin-right: 40px; */
     margin-top: 50px;
     margin-right: 40px;
+    color: #000;
      
 }
 /* .tel1{
@@ -177,7 +178,8 @@ a{
     max-width: 1200px;
     margin: auto;
 } */
-section3 {
+
+section {
  background: #E5E5E5;
 }
 .goods{
