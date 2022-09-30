@@ -84,7 +84,31 @@ ul{
  .txt{
     margin-top: 10px;
     margin-left: 27px;
- }   
+ } 
+ 
+ .main-btn{
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid#F13C6E ;
+    background:#ffff;
+    display: inline-block;
+    float: right;
+    /* margin-right: 405px; */
+    /* padding: 12px 49px; */
+    /* margin-bottom: 40px; */
+    margin-top: 40px;
+    margin-right: 405px;
+
+}
+.btn{
+    /* text-align: center; */
+    /* margin-right: 405px; */
+    margin-top: 12px;
+    margin-left: 27px;
+    background-color: #ffff;
+}
+
 hr{
 
     border: 1px solid #EFEFEF;
@@ -99,6 +123,7 @@ hr{
 .bg{
     height: 604px;
     background: url(../images/bg.png);
+    padding-top: 192px;
 }
 .namber{
     float: right;
@@ -106,31 +131,43 @@ hr{
 display: inline-block;
 
 }
-.inscription{
+/* .inscription{
     height: 219px;
     width: 308px;
     
-}
+} */
 .super{
     color: #ffff;
-    padding-top: 192px;
+    margin-top: 30px;
     margin-left: 405px;
+}
+h1{
+    margin-top: 192px;
 }
 .txt1{
     color: #ffff;
     margin-top: 75px;
     margin-left: 405px;
 }
-.btn{
+.btn1{
     width: 170px;
     height: 40px;
     border-radius: 40px;
-    border: 2px solid #ffff;;
-    background:#F13C6E
-    display: inline-block;
-    float: right;
-    /* margin-right: 405px; */
-    padding: 12px 49px;
-    /* margin-bottom: 40px; */
-    /* margin-top: 10px; */
+    border: 2px solid #ffff;
+    background:#F13C6E;
+    
+    margin-left: 405px;
+   
+    margin-top: 62px;
+    
 }
+a{
+    color: #ffff;
+    display: block;
+    width: 170px;
+    height: 40px;
+}
+.txt2{
+    margin-top: 12px;
+}
+    
