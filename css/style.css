@@ -231,10 +231,10 @@ section {
     background: #F13C6E;
     margin-top: 100px;
     float: left;
-    /* margin-left: 405px; */
-    display: inline-block;
+    margin-left: 405px;
+    /* display: inline-block; */
 }
-.convert{
+.convert,.car1{
     float: right;
     /* margin-bottom: 52.73px; */
     display: inline-block;
@@ -247,7 +247,7 @@ p{
     color: #ffff;
 
 }
-.txt5{
+.txt5,.txt7{
     font-size: 18px;
     margin-top: 35px;
     margin-left: 40px;
@@ -255,7 +255,7 @@ p{
     
 
 }
-.txt6{
+.txt6,.txt8{
     font-size: 14px;
     margin-top: 25px;
     margin-left: 40px;
@@ -283,4 +283,33 @@ p{
 .p{
     padding-top: 9px;
 }
+.car{
+    width: 540px;
+    height: 212px;
+    background: #F13C6E;
+    margin-top: 100px;
+    float: left;
+margin-right: 405px;
+    /* margin-left: 405px; */
+    display: inline-block;
+}
+.car1{
+    margin-top: 56px;
+    margin-right: 45.33px;
+    display: inline-block;
 
+}
+.btn3{
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid #ffff;
+    background:#F13C6E;
+    margin-top: 151px;
+    margin-left: 40px;
+    /* display: inline-block; */
+}
+.email{
+    display: inline-block;
+
+}
