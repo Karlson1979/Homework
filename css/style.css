@@ -225,3 +225,48 @@ section {
     border: none;
     color: white;
 } 
+.bonus{
+    width: 540px;
+    height: 212px;
+    background: #F13C6E;
+    margin-top: 100px;
+    float: left;
+    /* margin-left: 405px; */
+    display: inline-block;
+}
+.convert{
+    float: right;
+    /* margin-bottom: 52.73px; */
+    display: inline-block;
+    /* margin-top: 52.73px; */
+    
+
+
+}
+p{
+    color: #ffff;
+
+}
+.txt5{
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 40px;
+    /* display: inline-block; */
+    
+
+}
+.txt6{
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 40px;
+    /* display: inline-block; */
+   
+
+
+}
+.tekst{
+    display: inline-block;
+}
+img{
+    margin-top: 52.73px;
+}
