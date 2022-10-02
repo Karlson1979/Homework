@@ -107,7 +107,7 @@ h1{
     border: 2px solid #ffff;
     border-radius: 40px;
     background: #F13C6E;
-    margin-left: 40px;
+    /* margin-left: 10px; */
     font-size: 14px;
     color: #ffff;
 margin-top: 50px;
@@ -163,4 +163,40 @@ section{
        padding: 9px 40px;
        border: none;
        color: white;
+   }
+   .mail{
+    height: 212px;
+    width: 540px;
+    background: #F13C6E;
+    /* padding-top: 35px; */
+    padding-left: 40px;
+    display: inline-block;
+    
+    
+   }
+   .bonus{
+    display: inline-block;
+   }
+   h3{
+    color: #ffff;
+    font-size: 18px;
+    /* margin-top: 35px; */
+    /* margin-left: 40 px; */
+    /* display: inline-block; */
+
+   }
+   .mal {
+    /* float: right; */
+    display: inline-block;
+    /* margin-right: 45px; */
+    margin-top: 52.73px;
+    margin-right: 45px;
+
+   }
+   .txt3{
+    font-size: 14px;
+    color: #ffff;
+    margin-top: 25px;
+    /* display: inline-block; */
+
    }
