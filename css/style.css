@@ -118,3 +118,49 @@ margin-top: 50px;
 }
     
 
+section{
+    background: #E5E5E5;
+   }
+   .goods{
+       padding: 80px 0;
+   }
+   .section-header{
+       margin-bottom: 40px;
+   }
+   .item{
+       background: white;
+       display: inline-block;
+       padding: 25px 30px;
+       margin: 0 15px;
+   }
+   .item-image{
+       text-align: center;
+       margin-bottom: 20px;
+   }
+   .item-image img{
+       width: 125px;
+   }
+   .item-description p{
+       font-size: 14px;
+       width: 195px;
+       text-align: center;
+       line-height: 1.5;
+   }
+   .item-price{
+       margin: 20px 0;
+   }
+   .price{
+       text-align: center;
+       font-size: 21px;
+       font-weight: 700;
+   }
+   .bye-btn button{
+       margin: auto;
+       display: block;
+       border-radius: 30px;
+       background: #F13C6E;
+       font-size: 14px;
+       padding: 9px 40px;
+       border: none;
+       color: white;
+   }
