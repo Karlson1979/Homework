@@ -1,3 +1,4 @@
+
 *,body,html{
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@
 }
 
 .container{
-    max-width: 1148px;
+    max-width: 1200px;
     background: #E5E5E5;
     margin: auto;
 }
@@ -22,6 +23,7 @@
     margin: 0 15px;
     margin-top: 17px;
     margin-bottom: 16px;
+    font-size: 14px;
    }
  
 ul{
@@ -29,287 +31,90 @@ ul{
 }
 
 .link{
-    color: black; 
-    
+    color: black;    
 }
-.section-rekvizit{
-    /* margin: auto; */
-    display: inline-block;
-    height: 80px;
-    width: 258px;
-}
-.logo1{
-    float: left;
-    margin-left: 405px;
-    margin-top: 20px;
-    display: inline-block;
-   
-}
-.namber{
-    float: right;
-    display: inline-block;
+.rekvizit{
+    background: #ffff;
 
 }
-.main-btn{
-    width: 170px;
-    height: 40px;
-    border-radius: 40px;
-    border: 2px solid #F13C6E;
-    background:#ffff;
+.rekvizit-1{
+    padding-left: 405px;
+    background: #ffff;
+    padding-top: 20px;
+    padding-right: 405px;
+}
+.logo{
     display: inline-block;
-    float: right;
-    margin-right: 405px;
-    padding-left: 12px 49px;
-    /* margin-bottom: 40px; */
-    /* margin-top: 10px; */
-    
 }
 
-.tel{
-    /* margin-left: 515px; */
+
+.tel_btn{
+    
     display: inline-block;
-    /* /* margin-right: 40px; */
-    margin-top: 50px;
-    margin-right: 40px;
+    
+    float: right;
+    padding-top: 20px;
+}
+a{
     color: #000;
-     
-}
-/* .tel1{
-    height: 19px;
-    width: 127px;
-    float: right;
-    margin-right: 615px;
-    display: inline-block;
-    margin-top: 50px;
-} */
- .txt{
-    margin-top: 10px;
-    margin-left: 27px;
- } 
- 
- .main-btn{
-    width: 170px;
-    height: 40px;
-    border-radius: 40px;
-    border: 2px solid#F13C6E ;
-    background:#ffff;
-    display: inline-block;
-    float: right;
-    /* margin-right: 405px; */
-    /* padding: 12px 49px; */
-    /* margin-bottom: 40px; */
-    margin-top: 40px;
-    margin-right: 405px;
-
-}
-.btn{
-    /* text-align: center; */
-    /* margin-right: 405px; */
-    margin-top: 12px;
-    margin-left: 27px;
-    background-color: #ffff;
-}
-
-hr{
-
-    border: 1px solid #EFEFEF;
-    margin-top: 40px;
-}
-.menu1{
-    
-    margin-top: 30px;
-    display: inline-block;
-    margin: 20px;
-}
-.bg{
-    height: 604px;
-    background: url(../images/bg.png);
-    padding-top: 192px;
-}
-.namber{
-    float: right;
-    /* margin-right: 405px; */
-display: inline-block;
-
-}
-/* .inscription{
-    height: 219px;
-    width: 308px;
-    
-} */
-.super{
-    color: #ffff;
-    margin-top: 30px;
-    margin-left: 405px;
-}
-h1{
-    margin-top: 192px;
-}
-.txt1{
-    color: #ffff;
-    margin-top: 75px;
-    margin-left: 405px;
 }
 .btn1{
     width: 170px;
     height: 40px;
+    border: 2px solid #F13C6E;
     border-radius: 40px;
-    border: 2px solid #ffff;
-    background:#F13C6E;
-    
-    margin-left: 405px;
-   
-    margin-top: 62px;
+    background: #ffff;
+    margin-left: 40px;
+    font-size: 14px;
+
+}
+hr{
+  border: 1px solid #EFEFEF;  
+  margin-top: 40px;
+}
+
+.menu-1{
+    display: inline-block;
+    margin-top: 30px;
+    margin: 30px;
     
 }
-a{
+.link-1{
+    font-size: 16px;
+
+}
+.bg{
+    margin-top: 30px;
+    /* width: 1920px; */
+    height: 604px;
+    background: url(../images/bg.png);
     color: #ffff;
-    display: block;
+    padding-top: 286px;
+    padding-left: 405px;
+
+}
+h1{
+    font-size: 48px;
+    
+}
+.txt{
+    font-size: 14px;
+    margin-top: 50px;
+}
+.btn-2 {
     width: 170px;
     height: 40px;
+    border: 2px solid #ffff;
+    border-radius: 40px;
+    background: #F13C6E;
+    margin-left: 40px;
+    font-size: 14px;
+    color: #ffff;
+margin-top: 50px;
 }
 .txt2{
-    margin-top: 12px;
-}
-
-
-   
- /* .container{
-    max-width: 1200px;
-    margin: auto;
-} */
-
-section {
- background: #E5E5E5;
-}
-.goods{
-    padding: 80px 0;
-}
-.txt3{
-    margin-bottom: 40px;
-}
-.item{
-    background: white;
-    display: inline-block;
-    padding: 25px 30px;
-    margin: 0 15px;
-}
-.item-image{
-    text-align: center;
-    margin-bottom: 20px;
-}
-.item-image img{
-    width: 125px;
-}
-.txt4 p{
-    font-size: 14px;
-    width: 195px;
-    text-align: center;
-    line-height: 1.5;
-}
-.item-price{
-    margin: 20px 0;
-}
-.price{
-    text-align: center;
-    font-size: 21px;
-    font-weight: 700;
-}
-.bye-btn button{
-    margin: auto;
-    display: block;
-    border-radius: 30px;
-    background: #F13C6E;
-    font-size: 14px;
-    padding: 9px 40px;
-    border: none;
-    color: white;
-} 
-.bonus{
-    width: 540px;
-    height: 212px;
-    background: #F13C6E;
-    margin-top: 100px;
-    float: left;
-    margin-left: 405px;
-    /* display: inline-block; */
-}
-.convert,.car1{
-    float: right;
-    /* margin-bottom: 52.73px; */
-    display: inline-block;
-    margin-top: 40.73px;
-    
-
-
-}
-p{
     color: #ffff;
-
+    
 }
-.txt5,.txt7{
-    font-size: 18px;
-    margin-top: 35px;
-    margin-left: 40px;
-    /* display: inline-block; */
     
 
-}
-.txt6,.txt8{
-    font-size: 14px;
-    margin-top: 25px;
-    margin-left: 40px;
-    /* display: inline-block; */
-   
-
-
-}
-.tekst{
-    display: inline-block;
-}
-.forma{
-    width: 225px;
-    height: 35px;
-    border-radius: 30px;
-    margin-top: 25px;
-    float: left;
-    background:#ffff;
-    text-indent: 25px;
-    margin-left: 40px;
-
-
-
-}
-.p{
-    padding-top: 9px;
-}
-.car{
-    width: 540px;
-    height: 212px;
-    background: #F13C6E;
-    margin-top: 100px;
-    float: left;
-margin-right: 405px;
-    /* margin-left: 405px; */
-    display: inline-block;
-}
-.car1{
-    margin-top: 56px;
-    margin-right: 45.33px;
-    display: inline-block;
-
-}
-.btn3{
-    width: 170px;
-    height: 40px;
-    border-radius: 40px;
-    border: 2px solid #ffff;
-    background:#F13C6E;
-    margin-top: 151px;
-    margin-left: 40px;
-    /* display: inline-block; */
-}
-.email{
-    display: inline-block;
-
-}
