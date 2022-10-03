@@ -281,3 +281,25 @@ section{
     background-repeat: repeat;
     font-size: 0px;
 }
+.categor-1,.categor-2,.categor-3,.categor-4{
+    width: 100px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    /* margin: 80px; */
+    /* float: left; */
+    /* background: red; */
+
+}
+hr{
+    margin-top: 30px;
+
+}
+.cat{
+    font-size: 12px;
+    font-weight: 400px;
+    color: #828282;
+}
+.categor-2,.categor-3,.categor-4{
+    margin-left: 200px;
+}
