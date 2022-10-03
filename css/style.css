@@ -73,14 +73,14 @@ a{
 .clear{
     clear: both;
 }
-.hr{
+hr{
   border: 1px solid #EFEFEF;  
-  margin-top: 40px;
+  /* margin-top: 20px; */
 }
 
 .menu-1{
     display: inline-block;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin: 30px;
     
 }
@@ -89,7 +89,7 @@ a{
 
 }
 .bg{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     /* width: 1920px; */
     height: 604px;
     background: url(../images/bg.png);
@@ -229,7 +229,7 @@ section{
     /* padding-left: 40px; */
     display: inline-block;
     /* float: left; */
-    margin: 15px;
+    /* margin: 15px; */
     float: right;
     /* margin-right: 405px; */
    
@@ -261,32 +261,23 @@ section{
     color: #ffff;
     
  }
-.carimg{
+/* .carimg{
     margin-left: 45.33px;
-}
-.impuls{
-    width: 1110px;
-    /* height: 357px; */
-    background: #ffff;
-    padding-top: 35px;
-    margin-top: 100px;
+} */
+.car-bg{
+    width: 188px;
+    height: 100px;
+    background: url(../images/auto.svg);
+    background-size: 90;
     display: inline-block;
-
+    margin-left: 70px;
 }
-hr{
-    border: 1px solid #EFEFEF;
-}
-.impuls-2{
-    padding-top: 20px
+.brand{
+    width: 275px;
+    height: 90px;
     display: inline-block;
+    background: url(../images/image.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    font-size: 0px;
 }
-.impuls-3{
-
-}
-.vert {
-    border-left:3px solid red; margin-left: left 69px;
-    display: inline-block;
-
-}
-
-
