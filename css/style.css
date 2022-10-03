@@ -42,6 +42,7 @@ ul{
     background: #ffff;
     padding-top: 20px;
     padding-right: 405px;
+    
 }
 .logo{
     display: inline-block;
@@ -114,6 +115,7 @@ margin-top: 50px;
 }
 .txt2{
     color: #ffff;
+    padding: 12px 27px;
     
 }
     
@@ -245,10 +247,42 @@ section{
     background: #F13C6E;
     /* margin-left: 10px; */
     font-size: 14px;
-    color: #ffff;
+    /* color: #ffff; */
     margin-top: 25px;
+    
 
 }
+ .txt6{
+    padding: 9px 0px;
+    color: #ffff;
+    
+ }
 .carimg{
     margin-left: 45.33px;
 }
+.impuls{
+    width: 1110px;
+    /* height: 357px; */
+    background: #ffff;
+    padding-top: 35px;
+    margin-top: 100px;
+    display: inline-block;
+
+}
+hr{
+    border: 1px solid #EFEFEF;
+}
+.impuls-2{
+    padding-top: 20px
+    display: inline-block;
+}
+.impuls-3{
+
+}
+.vert {
+    border-left:3px solid red; margin-left: left 69px;
+    display: inline-block;
+
+}
+
+
