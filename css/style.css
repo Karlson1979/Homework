@@ -307,3 +307,31 @@ section{
     margin-top: 60px;
     border: 1px solid #EFEFEF;
 }
+.link4{
+    display: block;
+    display: inline-block;
+    margin-top: 40px;
+}
+.tel_btn2{
+    float: right;
+    display: inline-block;
+    /* margin-right: 405px; */
+    margin-top: 40px;
+
+}
+.meseng{
+    background: #ffff;
+}
+.end{
+    padding: 25px 0;
+}
+.shop,.shop2{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400px;
+    color: #828282;
+}
+.shop2{
+    float: right;
+    /* margin-right: 405px; */
+}
