@@ -128,8 +128,10 @@ section{
     background: #E5E5E5;
    }
    .goods{
-       padding: 80px 0;
+       padding: 80px 0px;
+       
    }
+   
    .section-header{
        margin-bottom: 40px;
    }
@@ -175,11 +177,11 @@ section{
     width: 540px;
     background: #F13C6E;
     /* padding-top: 35px; */
-    padding-left: 40px;
+    /* padding-left: 30px; */
     display: inline-block;
     float: left;
     /* margin-left: 405px; */
-    margin: 15px;
+    /* margin: 15px; */
    
     
    }
@@ -188,7 +190,8 @@ section{
    .bonus{
     display: inline-block;
     margin-top: 35px;
-    float: left;
+    /* float: left; */
+    margin-left: 40px;
    }
    h3{
     color: #ffff;
@@ -231,7 +234,7 @@ section{
     /* float: left; */
     /* margin: 15px; */
     float: right;
-    /* margin-right: 405px; */
+    margin-right: 80px;
    
 }
 .maps{
@@ -272,14 +275,19 @@ section{
     display: inline-block;
     margin-left: 70px;
 }
-.brand{
+.brand,.brand1{
     width: 275px;
     height: 90px;
     display: inline-block;
     background: url(../images/image.jpg);
     background-size: contain;
     background-repeat: repeat;
-    font-size: 0px;
+    /* font-size: 0px; */
+    /* margin-left: 12px; */
+
+}
+.brand1{
+margin-top: 100px;
 }
 .categor-1,.categor-2,.categor-3,.categor-4{
     width: 100px;
