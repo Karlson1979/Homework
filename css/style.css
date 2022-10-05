@@ -1,3 +1,4 @@
+@import url(//db.onlinewebfonts.com/c/416ff9cebc6b09a8d7c97e7d6e632cb9?family=Graphik+LC+TT+Thin);
 *,body,html{
     margin: 0;
     padding: 0;
@@ -6,4 +7,56 @@
     list-style: none;
     border: none;
     outline: none;
+    font-family: ;
 }
+.menu{
+    display: flex;
+    padding: 31px 51px 24px 51px;
+    /* justify-content: space-between; */
+    margin: 0 57px;
+}
+.link1{
+    /* display: block; */
+    margin: 42px;
+    margin-top: 34px;
+    color: black;
+}
+.btn1,.btn2{
+    height: 45px;
+    width: 120px;
+    
+    /* padding: 5px 15px; */
+    font-size: 16px;
+    font-weight:600px;
+    margin-top: 20px;
+    
+    
+}
+.btn{
+    float: right;
+}
+.btn1{
+    margin-right: 51px;
+    background: #ffff;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.btn2{
+    margin-right: 10px;
+    
+    background: #FF6336;
+}
+.txt2{
+  color: white;  
+}
+.txt1{
+    color: #000;
+}
+hr{
+    border: 1px solid #CCCCCC;
+}
+
+
+
+
