@@ -15,6 +15,7 @@
 display: flex;
    padding: 34px 51px 24px 51px;
    justify-content: space-between;
+   flex-wrap: wrap;
    
 }
 .block-menu{
@@ -114,7 +115,7 @@ line-height: 60px;
 }
 .logs{
     display: flex;
-    /* justify-content: center; */
+    flex-wrap: wrap;
     padding: 70px 51px 80px 51px;
     
 }
