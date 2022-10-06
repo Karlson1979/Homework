@@ -13,7 +13,7 @@
 
 .menu{
     display: flex;
-   padding: 34px 51px 34px 51px;
+   padding: 34px 51px 24px 51px;
    /* justify-content: center; */
    
 }
@@ -52,14 +52,44 @@ margin-left: 10px;
 
 }
 
-
-
-
-
 hr{
     border: 1px solid #CCCCCC;
 }
-
-
-
+h1{
+    font-size: 65px;
+    font-weight: 600px;
+    padding: 129px 0 51px 51px;
+}
+.txt-1{
+    font-size: 25px;
+    font-weight: 400px;
+    padding: 0px 0 50px 51px;
+}
+.btn34{
+    padding-top: 25px;
+}
+.link-btn-3{
+    padding: 20px 42px; 
+    color: white;
+background: #FF6336;
+font-size: 16px;
+font-weight: 600px;
+margin-left: 51px;
+   
+}
+.link-btn-4{
+padding: 20px 29px; 
+border: 1px solid #000;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #000;
+    margin-left: 10px;
+}
+    
+.txt-2{
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 40px 51px;
+    
+}
 
