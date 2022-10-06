@@ -7,52 +7,55 @@
     list-style: none;
     border: none;
     outline: none;
-    font-family: ;
+    
 }
+
+
 .menu{
     display: flex;
-    padding: 31px 51px 24px 51px;
-    /* justify-content: space-between; */
-    margin: 0 57px;
+   padding: 34px 51px 34px 51px;
+   /* justify-content: center; */
+   
 }
-.link1{
-    /* display: block; */
-    margin: 42px;
-    margin-top: 34px;
-    color: black;
+.img-logo{
+    height: 28px;
+    width: 130px;
+    float: left;
+    
 }
-.btn1,.btn2{
-    height: 45px;
-    width: 120px;
-    
-    /* padding: 5px 15px; */
-    font-size: 16px;
-    font-weight:600px;
-    margin-top: 20px;
-    
+.link-1{
+    font-size: 15px;
+    font-weight: 400px;
+    color: #000;
+    margin: 0 21px;
     
 }
 .btn{
-    float: right;
+    justify-content: end;
 }
-.btn1{
-    margin-right: 51px;
-    background: #ffff;
-    border: 1px solid black;
-    text-align: center;
-    
-}
-.btn2{
-    margin-right: 10px;
-    
-    background: #FF6336;
-}
-.txt2{
-  color: white;  
-}
-.txt1{
+.link-btn-1{
+    padding: 9px 36px; 
+    border: 1px solid #000;
+    font-size: 16px;
+    font-weight: 600px;
     color: #000;
+    margin-left: 305px;
+   
 }
+.link-btn-2{
+padding: 10px 21px; 
+color: white;
+background: #FF6336;
+font-size: 16px;
+font-weight: 600px;
+margin-left: 10px;
+
+}
+
+
+
+
+
 hr{
     border: 1px solid #CCCCCC;
 }
