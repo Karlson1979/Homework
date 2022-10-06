@@ -9,38 +9,54 @@
     outline: none;
     
 }
+.header-menu{
+    padding: 34px 51px 33px 51px;
+   
+}
+    
 
 
 .menu{
 display: flex;
-   padding: 34px 51px 24px 51px;
+   
    justify-content: space-between;
    flex-wrap: wrap;
+    align-items: center;
+   
    
 }
 .block-menu{
     display: flex;
-    
+    /* padding-left: 51px; */
+   
+}
+ul{
+    display: flex;
+    margin-top: 5px;
+
 }
 .img-logo{
-    height: 28px;
-    width: 130px;
     float: left;
+    /* align-items: center; */
+
     
 }
 .link-1{
     font-size: 15px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #000;
-    margin: 0 21px;
+    margin: 21px;
     
+}
+.btn{
+    margin-bottom: 5px;
 }
 
 .link-btn-1{
     padding: 9px 36px; 
     border: 1px solid #000;
     font-size: 16px;
-    font-weight: 600px;
+    font-weight: 600;
     color: #000;
     margin-left: 305px;
    
@@ -50,7 +66,7 @@ padding: 10px 21px;
 color: white;
 background: #FF6336;
 font-size: 16px;
-font-weight: 600px;
+font-weight: 600;
 margin-left: 10px;
 
 }
@@ -58,18 +74,21 @@ margin-left: 10px;
 hr{
     border: 1px solid #CCCCCC;
 }
+.aside{
+    padding: 70px 67px 65px 51px;
+}
 .accelerate{
     display: flex;
-    padding: 70px 67px 65px 51px;
+    
 }
 h1{
     font-size: 65px;
-    font-weight: 600px;
-    padding: 0px 0 51px 51px;
+    font-weight: 600;
+    padding: 51px;
 }
 .txt-1{
     font-size: 25px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 0px 0 50px 51px;
 }
 .btn34{
@@ -80,22 +99,22 @@ h1{
     color: white;
 background: #FF6336;
 font-size: 16px;
-font-weight: 600px;
+font-weight: 600;
 margin-left: 51px;
    
 }
 .link-btn-4{
-padding: 20px 29px; 
+padding: 18px 29px; 
 border: 1px solid #000;
     font-size: 16px;
-    font-weight: 600px;
+    font-weight: 600;
     color: #000;
     margin-left: 10px;
 }
     
 .txt-2{
     font-size: 15px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 40px 51px;
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -120,6 +139,6 @@ line-height: 60px;
     
 }
 .logs-1{
-    margin: 51px;
+    margin: 50px;
 }
 
