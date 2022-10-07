@@ -111,6 +111,7 @@ border: 1px solid #000;
     color: #000;
     margin-left: 10px;
 }
+
     
 .txt-2{
     font-size: 15px;
@@ -122,10 +123,17 @@ border: 1px solid #000;
 }
 .bg{
     background:#FF9C7D;
-
+    border: 1px solid black;
+    padding: 98px 51px 80px 51px;
+    /* padding: 20px 65px; */
 }
+.bg-2{
+    /* border: 1px solid black; */
+    margin: 5px 0 60px 0;
+}
+
 h2{
-    padding-top: 98px;
+    /* padding-top: 98px; */
     text-align: center;
     font-weight: 600;
 font-size: 50px;
@@ -135,10 +143,44 @@ line-height: 60px;
 .logs{
     display: flex;
     flex-wrap: wrap;
-    padding: 70px 51px 80px 51px;
+    padding-top: 70px 
     
 }
 .logs-1{
     margin: 50px;
 }
+.control{
+    padding: 100px 75px 250px 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.txt3{
+    margin-right: 141px;
+}
+h4{
+    margin-top: 151px;
+    font-weight: 600;
+font-size: 50px;
+line-height: 60px;
+
+}
+.txt-4{
+    margin-top: 30px;
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}
+.txt-5{
+    font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+margin-top: 50px;
+color: #000;
+line-height: 45px;
+}
+.shorten{
+    display: flex;
+}
+
 
