@@ -262,5 +262,16 @@ margin-top: 23px;
 .man{
     margin-left: 100px;
 }
-
+.most{
+    padding: 89px 75px 140px 105px;
+    background: #DABC98;
+    display: flex;
+}
+.most-txt{
+    font-weight: 600;
+font-size: 50px;
+line-height: 60px;
+margin-left: 67px;
+margin-top: 30px;
+}
 
