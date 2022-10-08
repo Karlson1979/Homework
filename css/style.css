@@ -235,7 +235,7 @@ font-size: 18px;
 line-height: 25px;
 }
 .Managers{
-    margin-top: 49px;
+    margin-top: 45px;
 }
 .Developers{
     margin-top: 80px;
@@ -243,4 +243,24 @@ line-height: 25px;
 .Translators{
     margin-top: 58px;
 }
+.Lokalise{
+    padding: 60px 75px 104px 75px;
+    background: #C9E8F2;
+    display: flex;
+}
+.Lokalise-txt{
+    font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+}
+.Edward{
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+margin-top: 23px;
+}
+.man{
+    margin-left: 100px;
+}
+
 
