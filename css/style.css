@@ -181,6 +181,33 @@ line-height: 50px;
 }
 .shorten{
     display: flex;
+    /* align-items: center; */
+}
+.What{
+    padding: 98px 40px 80px 54px;
+    background: #FFF8E4;
+    /* display: flex; */
+    align-items: ;
+}
+.block-what{
+    /* padding-bottom: 853px; */
+    align-items: center;
+    /* display: flex; */
+}
+/* .picto{
+    margin-top: 79px;
+} */
+.pictos{
+    display: flex;
+    justify-content: space-between;
+    padding: 79px 117px 54px 117px;
 }
 
-
+h5{
+font-weight: 600;
+font-size: 25px;
+line-height: 35px;
+}
+.img2{
+    margin-top: 57px;
+}
