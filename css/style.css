@@ -273,5 +273,56 @@ font-size: 50px;
 line-height: 60px;
 margin-left: 67px;
 margin-top: 30px;
-}
 
+}
+/* .most-txt::after{
+    content:counter(hr);
+
+} */
+.line{
+    width: 1px;
+    height: 170px;
+    background: #000;
+    margin-left: 125px;
+}
+.star{
+    padding: 71px;
+    display: flex;
+    
+}
+.star2{
+    margin-left: 70px;
+}
+.Integrate{
+    padding: 169px 249px 130px 250px;
+}
+.Integrate-txt{
+    font-weight: 600;
+font-size: 65px;
+line-height: 75px;
+text-align: center;
+}
+.Automate{
+    font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+/* or 120% */
+
+text-align: center;
+
+}.btn5{
+ margin-left: 400px;
+    
+    
+    
+}
+.link5{
+    font-weight: 600;
+font-size: 16px;
+line-height: 60px;
+color: #ffff;
+padding: 22px 20px;
+background: #FF6336;
+/* display: block; */
+
+}
