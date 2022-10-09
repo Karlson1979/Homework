@@ -123,12 +123,12 @@ border: 1px solid #000;
 }
 .bg{
     background:#FF9C7D;
-    border: 1px solid black;
-    padding: 98px 51px 80px 51px;
+    
+    padding: 10px 51px 10px 51px;
     /* padding: 20px 65px; */
 }
 .bg-2{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     margin: 5px 0 60px 0;
 }
 
