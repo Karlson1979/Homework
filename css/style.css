@@ -30,7 +30,7 @@ display: flex;
     /* padding-left: 51px; */
    
 }
-ul{
+.heder-link{
     display: flex;
     margin-top: 5px;
 
@@ -310,19 +310,94 @@ line-height: 30px;
 
 text-align: center;
 
-}.btn5{
- margin-left: 400px;
-    
+}
+.btn5{
+ /* margin-left: 400px; */
+  justify-content: center; 
+  display: flex;
+
     
     
 }
+
 .link5{
     font-weight: 600;
 font-size: 16px;
 line-height: 60px;
 color: #ffff;
-padding: 22px 20px;
+padding: 15px 10px;
 background: #FF6336;
 /* display: block; */
 
 }
+.Localization{
+    padding: 120px 325px 150px 325px;
+    background: #FF9C7D;
+    
+}
+.Try{
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+margin-top: 29px;
+
+text-align: center;
+}
+.btn6{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+/* .block-loc{
+    align-items: center;
+} */
+
+.link-btn6{
+padding: 22px 40px; 
+color: white;
+background: black;
+font-size: 16px;
+font-weight: 600;
+/* margin-left: 10px; */
+justify-content: center;
+display: block;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 97px 141px 95px 75px; 
+    
+}
+.Case {
+    font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+margin-bottom: 30px;
+}
+    
+
+.link10{
+    
+    font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+margin-top: 15px;
+
+}
+.footer-link{
+    margin-top: 21px;
+}
+.link12{
+    color: #000;
+}
+.txt9{
+    font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+}
+
+   
+
+    
