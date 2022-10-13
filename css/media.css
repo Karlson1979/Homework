@@ -1,0 +1,22 @@
+@media screen and (max-width:768px){
+    .link-btn-1{
+        /* display: inline-block; */
+        display: block;
+        margin-left: 0px;
+        
+       
+   
+    }
+    .link-btn-2{
+        display: inline-block;
+    }
+  .menu{
+    justify-content: space-around;    
+}
+.btn{
+    display: flex;
+    margin-top: 5px;
+}
+
+
+}
