@@ -266,12 +266,19 @@ margin-top: 23px;
 }
 .man{
     margin-left: 100px;
+    
 }
 .most{
     padding: 89px 75px 140px 105px;
     background: #DABC98;
-    display: flex;
+    /* display: flex; */
 }
+    .most1{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    
+
 .most-txt{
     font-weight: 600;
 font-size: 50px;
@@ -315,6 +322,10 @@ line-height: 30px;
 
 text-align: center;
 
+}
+.Integrate{
+    align-items: center;
+    display: block;
 }
 .btn5{
  /* margin-left: 400px; */
@@ -370,10 +381,15 @@ justify-content: center;
 display: block;
 }
 .footer{
-    display: flex;
-    justify-content: space-between;
-    padding: 97px 141px 0px 75px; 
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 97px 141px 0px 75px; }
     
+
+.footer1{
+display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
 }
 .Case1 {
 font-weight: 600;
@@ -381,19 +397,33 @@ font-size: 40px;
 line-height: 50px;
 margin-bottom: 30px;
 }
+.frame{
+    padding-right: 75px;
+}
+
+
 .sp1{
     margin-top: 39px;
+    
+
+}
+.sp{
+    
+  
 }
 .Riding{
     margin-top: 11px;
     font-weight: 400;
 font-size: 20px;
 line-height: 30px;
+ 
+
 }
   .txt11{font-weight: 600;
     font-size: 20px;
     line-height: 25px;
 margin-top: 15px;
+
 }  
 
 .link10{

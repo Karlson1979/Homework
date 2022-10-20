@@ -20,6 +20,43 @@
 .face{
     display: none;
 }
+h3,h4{
+    margin-top: 0px;}
+
+.control1,.control3{
+flex-direction: column-reverse;
+}
+.control1,.control2,.control3,.control4{
+padding-bottom: 10px;}
+.man{
+    /* display: inline-block; */
+    align-items: center;
+}
+.line{
+    width: 0px;
+    height: 0px;
+    background: #000;
+    margin-left: 0px;
+}
+.nature{
+    display: none;
+}
+.link-btn6{
+    padding: 22px 10px; }
+
+    /* .pictos{
+display: flex;
+
+    } */
+
+.footer1{
+    display: flex;
+   justify-content: space-around;
+}
+
+
+
+
 
 
 }
@@ -61,11 +98,32 @@
     width: 300px;
  }
  .control1,.control2,.control3,.control4{
-    padding: 20px;
+    padding: 10px;
  }
  h3,h4{
     margin: 0px;
  }
+ .man{
+    /* display: inline-block; */
+    align-items: center;
+}
+.line{
+    width: 0px;
+    height: 0px;
+    background: #000;
+    margin-left: 0px;
+}
+.nature{
+    display: none;
+}
+.Integrate1{
+    padding: 20px 0px 20px 0px;
+    align-items: center;
+}
+/* .Integrate-txt{
+    text-align: center;
+} */
+
  
     
 
