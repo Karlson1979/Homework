@@ -221,9 +221,33 @@ display: flex;
 .man{
     margin: 0;
 }
+.Integrate{
+    padding: 0;
+}
 
+.Localization{
+    padding: 0px
+    
+    
+}
+.Integrate-txt{
+    font-size: 50px;
+}
+.footer{
+    padding: 0;
+}
+.txt3{
+    margin: 0px;
+}
+   
+.control2{
+padding: 0; 
+flex-direction: column;
+}
 
-
+.txt-5{
+    margin: 0;
+}
 
 
 }
