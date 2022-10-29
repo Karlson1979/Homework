@@ -149,18 +149,21 @@ display: flex;
         justify-content: center;
     }
 
-    h1,
+    h1{
+        text-align: center;  
+    }
     .txt-1 {
         text-align: center;
+        font-size: 15px;
     }
 
-    .control1,.control4 {
+    /* .control1,.control4 {
         flex-direction: column-reverse;
-    }
+    } */
 
     .txt3 {
         display: flex;
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
 
     }
 
@@ -172,7 +175,7 @@ display: flex;
         justify-content: center;
     }
 .txt-3,.txt-4{
-    flex:none
+    /* flex:none */
 }
 .txt-4{
     justify-content: center;
@@ -252,12 +255,9 @@ display: flex;
    
 .control2{
 padding: 0; 
-flex-direction: column;
 }
 
-.txt-5{
-    margin: 0;
-}
+
 .most-txt{
     margin-left: 0px;
 }
