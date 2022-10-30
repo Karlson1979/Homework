@@ -264,8 +264,19 @@ font-size: 15px;
 line-height: 25px;
 margin-top: 23px;
 }
+.loka{
+    display: flex;
+    flex-wrap: wrap;
+    justify-conte;
+}
+.block-text1{
+    flex-wrap: wrap;
+}
 .man{
     margin-left: 100px;
+    /* display: block; */
+    display: inline-block;
+
     
 }
 .most{
@@ -326,6 +337,15 @@ text-align: center;
 .Integrate{
     align-items: center;
     display: block;
+    
+}
+.Integrate1{
+        /* display: flex; */
+        flex-wrap: wrap;
+    }
+.block-natura{
+    background-size: cover;
+
 }
 .btn5{
  /* margin-left: 400px; */
