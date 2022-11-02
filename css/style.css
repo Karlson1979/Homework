@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Josefin+Sans:wght@600;700&family=Open+Sans:wght@400;600;700&family=Poppins&display=swap");
 *, body, html {
   margin: 0;
   padding: 0;
@@ -6,4 +7,24 @@
   list-style: none;
   border: none;
   outline: none;
+}
+
+.header-section {
+  padding: 50px 150px 110px 145px;
+}
+
+.container {
+  width: 1153px;
+}
+.container .logo {
+  display: flex;
+  align-items: center;
+}
+.container .link-logo {
+  margin-left: 11px;
+  margin-top: 10px;
+  font-size: 24px;
+  color: red;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */
