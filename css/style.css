@@ -10,21 +10,65 @@
 }
 
 .header-section {
-  padding: 50px 150px 110px 145px;
+  padding: 50px 157px 110px 145px;
+  background: url(../image/Mask\ Group.png) no-repeat left 50%;
+  background: url(../image/image.png) no-repeat right 50%;
 }
 
 .container {
   width: 1153px;
+  margin: auto;
 }
-.container .logo {
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
   display: flex;
   align-items: center;
 }
-.container .link-logo {
+.logo .link-logo {
   margin-left: 11px;
   margin-top: 10px;
   font-size: 24px;
   color: red;
   font-weight: 700;
   font-family: "Josefin Sans", sans-serif;
+  display: block;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu .menu-item {
+  display: inline-block;
+  margin: 0 25px;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+.menu .menu-item-aktive {
+  display: inline-block;
+  margin: 0 25px;
+  font-size: 18px;
+  color: #FF4B32;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.picto {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+.picto .picto1 {
+  margin: 0 20px;
 }/*# sourceMappingURL=style.css.map */
