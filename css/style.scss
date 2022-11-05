@@ -24,7 +24,7 @@ html {
 }
 
 .container {
-    width: 1440px;
+    width: 1440wh;
     // @include fb();
     margin: auto;
 }
@@ -49,18 +49,23 @@ header {
 }
 
 .menu {
-    // @include fc();
-    margin-left: 130px;}
+
+@include fb();
+}
 
 
 
-    .menu-item-active,.menu-item {
+    .menu-item-active,.menu-item, {
         display: inline-block;
         margin: 0 25px;
 
         // margin-bottom: 25px;
         .menu-link {
             @include font (18px, $wh, 700, $font-open)
+        }
+        .menu-link1{
+            @include font (18px, $red, 700, $font-open)
+
         }
 
         .menu-item-active {
@@ -73,23 +78,19 @@ header {
 
     .picto {
         display: inline-block;
-        // display: flex;
-        // align-items: center;
-        // margin-right: 60px;
-        // margin: 0, 20px;
-margin-right: 160px
+        margin-left: 60px;
 
         
     }
 
     h1 {
-        @include font(58px, $red, 700, $font-josefin);
+        @include font(58px, $wh, 700, $font-josefin);
         margin-top: 110px;
 
     }
 
     .txt-heder {
-        @include font(20px, $red, 600, $font-open);
+        @include font(20px, $wh, 600, $font-open);
         margin-top: 30px;
 
 

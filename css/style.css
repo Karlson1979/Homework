@@ -17,7 +17,7 @@ html {
 }
 
 .container {
-  width: 1440px;
+  width: 1440wh;
   margin: auto;
 }
 
@@ -43,7 +43,10 @@ header {
 }
 
 .menu {
-  margin-left: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .menu-item-active, .menu-item {
@@ -53,6 +56,12 @@ header {
 .menu-item-active .menu-link, .menu-item .menu-link {
   font-size: 18px;
   color: #FFFFFF;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+.menu-item-active .menu-link1, .menu-item .menu-link1 {
+  font-size: 18px;
+  color: #FF4B32;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
@@ -67,12 +76,12 @@ header {
 
 .picto {
   display: inline-block;
-  margin-right: 160px;
+  margin-left: 60px;
 }
 
 h1 {
   font-size: 58px;
-  color: #FF4B32;
+  color: #FFFFFF;
   font-weight: 700;
   font-family: "Josefin Sans", sans-serif;
   margin-top: 110px;
@@ -80,7 +89,7 @@ h1 {
 
 .txt-heder {
   font-size: 20px;
-  color: #FF4B32;
+  color: #FFFFFF;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   margin-top: 30px;
