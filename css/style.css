@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Josefin+Sans:wght@600;700&family=Open+Sans:wght@400;600;700&family=Poppins&display=swap");
-*, body, html {
+*,
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,13 +12,13 @@
 }
 
 .header-section {
-  padding: 50px 157px 110px 145px;
-  background: url(../image/Mask.png) no-repeat left/50%, #000;
-  background: url(../image/image.png) no-repeat right/50%;
+  padding: 60px 147px 110px 145px;
+  background: url(../image/Mask.png) no-repeat left, #000;
+  background: url(../image/image.png) no-repeat right;
 }
 
 .container {
-  width: 1153px;
+  width: 1440px;
   margin: auto;
 }
 
@@ -44,15 +46,18 @@ header {
 .menu {
   margin-left: 130px;
 }
-.menu .menu-item {
+
+.menu-item-active, .menu-item {
   display: inline-block;
   margin: 0 25px;
+}
+.menu-item-active .menu-link, .menu-item .menu-link {
   font-size: 18px;
   color: #FFFFFF;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
-.menu .menu-item-active {
+.menu-item-active .menu-item-active, .menu-item .menu-item-active {
   display: inline-block;
   margin: 0 25px;
   font-size: 18px;
@@ -66,7 +71,7 @@ header {
   align-items: center;
 }
 .picto .picto1 {
-  margin: 0 20px;
+  margin-right: 147px;
 }
 
 h1 {
@@ -83,4 +88,19 @@ h1 {
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   margin-top: 30px;
+}
+
+.btn {
+  margin-top: 65px;
+  background: #FF4B32;
+  width: 148px;
+}
+
+.btn-link {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  padding: 16px 35px;
 }/*# sourceMappingURL=style.css.map */

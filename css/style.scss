@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Josefin+Sans:wght@600;700&family=Open+Sans:wght@400;600;700&family=Poppins&display=swap');@import 'variable';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Josefin+Sans:wght@600;700&family=Open+Sans:wght@400;600;700&family=Poppins&display=swap');
+@import 'variable';
 @import 'mixins';
 @import 'variable';
-*,body,html{
+
+*,
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,75 +14,99 @@
     border: none;
     outline: none;
 }
-.header-section{
-    padding: 50px 157px 110px 145px;
-   background: url(../image/Mask.png) no-repeat left/50%,#000;
-    background: url(../image/image.png)no-repeat right/50%;
-    // @include fb();
-}
-.container{
-    width: 1153px;
-    // @include fb();
-margin: auto;}
 
-header{
-@include fb();
+.header-section {
+    padding: 60px 147px 110px 145px;
+    background: url(../image/Mask.png) no-repeat,left,cover, #000;
+    // background: url(../image/image.png)no-repeat right;
+    // @include fb();
 }
-    
-.logo{
+
+.container {
+    width: 1440px;
+    // @include fb();
+    margin: auto;
+}
+
+header {
+    @include fb();
+}
+
+.logo {
     display: flex;
     align-items: center;
-    
 
 
-.link-logo{
-    margin-left: 11px;
-    margin-top: 10px;
-    @include font(24px,red,700,$font-josefin);
-    display: block;
+
+    .link-logo {
+        margin-left: 11px;
+        margin-top: 10px;
+        @include font(24px, red, 700, $font-josefin);
+        display: block;
+    }
+
 }
 
-}
-.menu{
-// @include fc();
-margin-left: 130px;
+.menu {
+    // @include fc();
+    margin-left: 130px;}
 
-   
 
-    .menu-item{
+
+    .menu-item-active,.menu-item {
         display: inline-block;
         margin: 0 25px;
+
         // margin-bottom: 25px;
+        .menu-link {
+            @include font (18px, $wh, 700, $font-open)
+        }
 
-    @include font (18px,$wh,700,$font-open)
+        .menu-item-active {
+            display: inline-block;
+            margin: 0 25px;
+
+            @include font (18px, $red, 700, $font-open)
+        }
     }
-    .menu-item-active{
+
+    .picto {
         display: inline-block;
-        margin: 0 25px;
+        // display: flex;
+        // align-items: center;
+        // margin-right: 60px;
+        // margin: 0, 20px;
+margin-right: 160px
 
-    @include font (18px,$red,700,$font-open)
+        .picto1 {
+            
+        }
     }
-    }
-    .picto{
-        display: flex;
-    align-items: center;
-    // margin-right: 60px;
-    .picto1{
-        margin: 0 20px;
-    }
-    }
-    h1{
-        @include font(58px,$red,700,$font-josefin);
+
+    h1 {
+        @include font(58px, $red, 700, $font-josefin);
         margin-top: 110px;
-        
-    }
-    .txt-heder{
-        @include font(20px,$red,600,$font-open);
-        margin-top: 30px; 
-        
+
     }
 
-    
+    .txt-heder {
+        @include font(20px, $red, 600, $font-open);
+        margin-top: 30px;
 
-    
 
+    }
+
+    .btn {
+        margin-top: 65px;
+        background: $red;
+        width: 148px;
+
+
+    }
+
+    .btn-link {
+        @include font(18px, $wh, 600, $font-open);
+        display: block;
+        padding: 16px 35px;
+
+    }
