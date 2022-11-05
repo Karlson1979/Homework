@@ -127,3 +127,36 @@ header {
         @include font(18px,$bg,400,$font-open);
         margin-top: 20px;
     }
+    .img1{
+        margin-top: 60px;
+        .png{
+            display: block;
+        }
+        .prace-1{
+            margin-top: 35px;
+            .prace-txt{
+                @include font(24px,$bg,700,$font-josefin);
+            }
+        .sort{
+            margin-top: 10px;
+            @include font(32px,$bg,600,$font-josefin);
+        }
+        .txt-1{
+            margin-top: 15px;
+            @include font(16px,$bg,400,$font-open);
+
+        }
+        }
+        .cart-btn{
+            display:flex;
+            flex-wrap: wrap;
+           justify-content: start;}
+
+          
+            .btn-link1{
+            padding: 15px 30px;
+            @include font(18px, $wh, 600, $font-open);
+        display: block;
+            }
+        }
+    
