@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Josefin+Sans:wght@600;700&family=Open+Sans:wght@400;600;700&family=Poppins&display=swap');
 @import 'variable';
 @import 'mixins';
-@import 'variable';
+
 
 *,
 body,
@@ -24,7 +24,7 @@ html {
 }
 
 .container {
-    width: 1440wh;
+    max-width: 1440wh;
     // @include fb();
     margin: auto;
 }
@@ -109,4 +109,21 @@ header {
         display: block;
         padding: 16px 35px;
 
+    }
+    .price{
+        padding: 160px 150px 0 147px;
+    
+    }
+    .best{
+        @include fb();
+        h2{
+            @include font(43px,$bg,600,$font-josefin);
+        }
+        .slade{
+            margin: 10px;
+        }
+    }
+    .txt{
+        @include font(18px,$bg,400,$font-open);
+        margin-top: 20px;
     }

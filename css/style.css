@@ -17,7 +17,7 @@ html {
 }
 
 .container {
-  width: 1440wh;
+  max-width: 1440wh;
   margin: auto;
 }
 
@@ -108,4 +108,32 @@ h1 {
   font-family: "Open Sans", sans-serif;
   display: block;
   padding: 16px 35px;
+}
+
+.price {
+  padding: 160px 150px 0 147px;
+}
+
+.best {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.best h2 {
+  font-size: 43px;
+  color: #0D0402;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+}
+.best .slade {
+  margin: 10px;
+}
+
+.txt {
+  font-size: 18px;
+  color: #0D0402;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
