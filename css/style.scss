@@ -14,7 +14,7 @@
     padding: 50px 157px 110px 145px;
    background: url(../image/Mask.png) no-repeat left/50%,#000;
     background: url(../image/image.png)no-repeat right/50%;
-    // background: 50%,#000;
+    // @include fb();
 }
 .container{
     width: 1153px;
@@ -40,8 +40,8 @@ header{
 
 }
 .menu{
-@include fc();
-
+// @include fc();
+margin-left: 130px;
 
    
 
@@ -52,7 +52,7 @@ header{
 
     @include font (18px,$wh,700,$font-open)
     }
-    .menu-item-aktive{
+    .menu-item-active{
         display: inline-block;
         margin: 0 25px;
 
@@ -62,11 +62,22 @@ header{
     .picto{
         display: flex;
     align-items: center;
-    margin-right: 60px;
+    // margin-right: 60px;
     .picto1{
         margin: 0 20px;
     }
     }
+    h1{
+        @include font(58px,$red,700,$font-josefin);
+        margin-top: 110px;
+        
+    }
+    .txt-heder{
+        @include font(20px,$red,600,$font-open);
+        margin-top: 30px; 
+        
+    }
+
     
 
     

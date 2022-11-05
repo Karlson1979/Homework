@@ -42,10 +42,7 @@ header {
 }
 
 .menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  margin-left: 130px;
 }
 .menu .menu-item {
   display: inline-block;
@@ -55,7 +52,7 @@ header {
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
-.menu .menu-item-aktive {
+.menu .menu-item-active {
   display: inline-block;
   margin: 0 25px;
   font-size: 18px;
@@ -67,8 +64,23 @@ header {
 .picto {
   display: flex;
   align-items: center;
-  margin-right: 60px;
 }
 .picto .picto1 {
   margin: 0 20px;
+}
+
+h1 {
+  font-size: 58px;
+  color: #FF4B32;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 110px;
+}
+
+.txt-heder {
+  font-size: 20px;
+  color: #FF4B32;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
