@@ -17,7 +17,8 @@ html {
 
 .header-section {
     padding: 60px 147px 110px 145px;
-    background: url(../image/Mask.png) no-repeat,left,cover, #000;
+    background: url(../image/Mask.png) no-repeat, left/contain,
+    url(../image/image.png) no-repeat right, #000;
     // background: url(../image/image.png)no-repeat right;
     // @include fb();
 }
@@ -78,9 +79,7 @@ header {
         // margin: 0, 20px;
 margin-right: 160px
 
-        .picto1 {
-            
-        }
+        
     }
 
     h1 {

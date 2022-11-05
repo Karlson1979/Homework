@@ -13,8 +13,7 @@ html {
 
 .header-section {
   padding: 60px 147px 110px 145px;
-  background: url(../image/Mask.png) no-repeat left, #000;
-  background: url(../image/image.png) no-repeat right;
+  background: url(../image/Mask.png) no-repeat, left/contain, url(../image/image.png) no-repeat right, #000;
 }
 
 .container {
@@ -67,11 +66,8 @@ header {
 }
 
 .picto {
-  display: flex;
-  align-items: center;
-}
-.picto .picto1 {
-  margin-right: 147px;
+  display: inline-block;
+  margin-right: 160px;
 }
 
 h1 {
