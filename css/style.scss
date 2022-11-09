@@ -18,7 +18,7 @@ html {
 .header-section {
     padding: 60px 147px 110px 145px;
     background: url(../image/Mask.png) no-repeat, left/contain,
-    url(../image/image.png) no-repeat right, #000;
+        url(../image/image.png) no-repeat right, #000;
     // background: url(../image/image.png)no-repeat right;
     // @include fb();
 }
@@ -50,113 +50,214 @@ header {
 
 .menu {
 
-@include fb();
+    @include fb();
 }
 
 
 
-    .menu-item-active,.menu-item, {
-        display: inline-block;
-        margin: 0 25px;
+.menu-item-active,
+.menu-item,
+{
+display: inline-block;
+margin: 0 25px;
 
-        // margin-bottom: 25px;
-        .menu-link {
-            @include font (18px, $wh, 700, $font-open)
+// margin-bottom: 25px;
+.menu-link {
+    @include font (18px, $wh, 700, $font-open)
+}
+
+.menu-link1 {
+    @include font (18px, $red, 700, $font-open)
+}
+
+.menu-item-active {
+    display: inline-block;
+    margin: 0 25px;
+
+    @include font (18px, $red, 700, $font-open)
+}
+}
+
+.picto {
+    display: inline-block;
+    margin-left: 60px;
+
+
+}
+
+h1 {
+    @include font(58px, $wh, 700, $font-josefin);
+    margin-top: 110px;
+
+}
+
+.txt-heder {
+    @include font(20px, $wh, 600, $font-open);
+    margin-top: 30px;
+
+
+}
+
+.btn {
+    margin-top: 65px;
+    background: $red;
+    width: 148px;
+
+
+}
+
+.btn-link {
+    @include font(18px, $wh, 600, $font-open);
+    display: block;
+    padding: 16px 35px;
+
+}
+
+.price {
+    padding: 160px 150px 0 147px;
+
+}
+
+.best {
+    @include fb();
+
+    h2 {
+        @include font(43px, $bg, 600, $font-josefin);
+    }
+
+    .slade {
+        margin: 10px;
+    }
+}
+
+.txt {
+    @include font(18px, $bg, 400, $font-open);
+    margin-top: 20px;
+}
+
+.img1 {
+    margin-top: 60px;
+
+    .png {
+        display: block;
+    }
+
+    .prace-1 {
+        margin-top: 35px;
+
+        .prace-txt {
+            @include font(24px, $bg, 700, $font-josefin);
         }
-        .menu-link1{
-            @include font (18px, $red, 700, $font-open)
 
+        .sort {
+            margin-top: 10px;
+            @include font(32px, $bg, 600, $font-josefin);
         }
 
-        .menu-item-active {
-            display: inline-block;
-            margin: 0 25px;
+        .txt-1 {
+            margin-top: 15px;
+            @include font(16px, $bg, 400, $font-open);
 
-            @include font (18px, $red, 700, $font-open)
         }
     }
 
-    .picto {
-        display: inline-block;
-        margin-left: 60px;
-
-        
-    }
-
-    h1 {
-        @include font(58px, $wh, 700, $font-josefin);
-        margin-top: 110px;
-
-    }
-
-    .txt-heder {
-        @include font(20px, $wh, 600, $font-open);
+    .cart-btn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
         margin-top: 30px;
-
-
     }
 
-    .btn {
-        margin-top: 65px;
+    .btn1 {
+
         background: $red;
         width: 148px;
-
+        // padding:5px, 30px, 15px, 30px;
+        margin-left: 20px;
+        border-radius: 5px;
+        text-align: center;
 
     }
 
-    .btn-link {
+
+
+    .btn-link2 {
         @include font(18px, $wh, 600, $font-open);
-        display: block;
-        padding: 16px 35px;
 
+        padding: 15px, 30px;
     }
-    .price{
-        padding: 160px 150px 0 147px;
-    
-    }
-    .best{
-        @include fb();
-        h2{
-            @include font(43px,$bg,600,$font-josefin);
-        }
-        .slade{
-            margin: 10px;
-        }
-    }
-    .txt{
-        @include font(18px,$bg,400,$font-open);
-        margin-top: 20px;
-    }
-    .img1{
-        margin-top: 60px;
-        .png{
-            display: block;
-        }
-        .prace-1{
-            margin-top: 35px;
-            .prace-txt{
-                @include font(24px,$bg,700,$font-josefin);
-            }
-        .sort{
-            margin-top: 10px;
-            @include font(32px,$bg,600,$font-josefin);
-        }
-        .txt-1{
-            margin-top: 15px;
-            @include font(16px,$bg,400,$font-open);
+}
 
-        }
-        }
-        .cart-btn{
-            display:flex;
-            flex-wrap: wrap;
-           justify-content: start;}
+.number {
+    display: inline-block;
+    user-select: none;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    width: 130px;
+    border: 1px solid #000;
+    height: 55px;
+}
 
-          
-            .btn-link1{
-            padding: 15px 30px;
-            @include font(18px, $wh, 600, $font-open);
-        display: block;
-            }
-        }
-    
+.number-controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 58px;
+    border-left: 1px solid #000;
+    background: $wh;
+}
+
+.number-minus,
+.number-plus {
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    background: $wh;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: arial;
+    color: #000;
+    text-decoration: none;
+}
+
+.number-plus {
+    border-bottom: 1px solid #000;
+}
+
+.number-minus:hover,
+.number-plus:hover {
+    background: $wf;
+}
+
+.number-minus:active,
+.number-plus:active {
+    background: $wf;
+}
+
+.number-text {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 33px;
+    height: 55px;
+    line-height: 55px;
+    @include font(24px, #000, 500, );
+    font-family: roboto;
+
+    // font-size: 14px;
+    // color: #000;
+    // background: #fff;
+    outline: none;
+    border: none;
+    text-align: right;
+}
+
+.number-unit {
+    display: inline-block;
+    font-size: 13px;
+    color: #000;
+    line-height: 55px;
+    height: 55px
+}

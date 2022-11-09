@@ -49,23 +49,27 @@ header {
   flex-wrap: wrap;
 }
 
-.menu-item-active, .menu-item {
+.menu-item-active,
+.menu-item {
   display: inline-block;
   margin: 0 25px;
 }
-.menu-item-active .menu-link, .menu-item .menu-link {
+.menu-item-active .menu-link,
+.menu-item .menu-link {
   font-size: 18px;
   color: #FFFFFF;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
-.menu-item-active .menu-link1, .menu-item .menu-link1 {
+.menu-item-active .menu-link1,
+.menu-item .menu-link1 {
   font-size: 18px;
   color: #FF4B32;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
-.menu-item-active .menu-item-active, .menu-item .menu-item-active {
+.menu-item-active .menu-item-active,
+.menu-item .menu-item-active {
   display: inline-block;
   margin: 0 25px;
   font-size: 18px;
@@ -171,12 +175,82 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+  margin-top: 30px;
 }
-.img1 .btn-link1 {
-  padding: 15px 30px;
+.img1 .btn1 {
+  background: #FF4B32;
+  width: 148px;
+  margin-left: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.img1 .btn-link2 {
   font-size: 18px;
   color: #FFFFFF;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
+  padding: 15px, 30px;
+}
+
+.number {
+  display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: relative;
+  text-align: left;
+  padding: 0;
+  width: 130px;
+  border: 1px solid #ddd;
+  height: 55px;
+}
+
+.number-controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 58px;
+  border-left: 1px solid #ddd;
+}
+
+.number-minus,
+.number-plus {
   display: block;
+  height: 27px;
+  line-height: 27px;
+  background: #faf4f2;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  font-family: arial;
+  color: #3e1e02;
+  text-decoration: none;
+}
+
+.number-plus {
+  border-bottom: 1px solid #ddd;
+}
+
+.number-text {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 33px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 14px;
+  color: #29160a;
+  background: #fff;
+  outline: none;
+  border: none;
+  text-align: right;
+}
+
+.number-unit {
+  display: inline-block;
+  font-size: 13px;
+  color: #29160a;
+  line-height: 55px;
+  height: 55px;
 }/*# sourceMappingURL=style.css.map */
