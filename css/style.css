@@ -54,22 +54,22 @@ header {
   display: inline-block;
   margin: 0 25px;
 }
-.menu-item-active .menu-link,
-.menu-item .menu-link {
+
+.menu-link {
   font-size: 18px;
   color: #FFFFFF;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
-.menu-item-active .menu-link1,
-.menu-item .menu-link1 {
+
+.menu-link1 {
   font-size: 18px;
   color: #FF4B32;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
-.menu-item-active .menu-item-active,
-.menu-item .menu-item-active {
+
+.menu-item-active {
   display: inline-block;
   margin: 0 25px;
   font-size: 18px;
@@ -142,54 +142,69 @@ h1 {
   margin-top: 20px;
 }
 
-.img1 {
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
   margin-top: 60px;
 }
-.img1 .png {
+
+.img3 {
+  margin-top: 5px;
+}
+
+.png {
   display: block;
 }
-.img1 .prace-1 {
+
+.prace-1 {
   margin-top: 35px;
 }
-.img1 .prace-1 .prace-txt {
+
+.prace-txt {
   font-size: 24px;
   color: #0D0402;
   font-weight: 700;
   font-family: "Josefin Sans", sans-serif;
 }
-.img1 .prace-1 .sort {
+
+.sort {
   margin-top: 10px;
   font-size: 32px;
   color: #0D0402;
   font-weight: 600;
   font-family: "Josefin Sans", sans-serif;
 }
-.img1 .prace-1 .txt-1 {
+
+.txt-1 {
   margin-top: 15px;
   font-size: 16px;
   color: #0D0402;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
 }
-.img1 .cart-btn {
+
+.cart-btn {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
   margin-top: 30px;
 }
-.img1 .btn1 {
+
+.btn1 {
   background: #FF4B32;
   width: 148px;
   margin-left: 20px;
   border-radius: 5px;
-  text-align: center;
 }
-.img1 .btn-link2 {
+
+.btn-link2 {
   font-size: 18px;
   color: #FFFFFF;
-  font-weight: 600;
-  font-family: "Open Sans", sans-serif;
-  padding: 15px, 30px;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  display: block;
+  padding: 20px 20px;
 }
 
 .number {
@@ -201,9 +216,9 @@ h1 {
   position: relative;
   text-align: left;
   padding: 0;
-  width: 130px;
-  border: 1px solid #ddd;
-  height: 55px;
+  width: 114px;
+  border: 1px solid #000;
+  height: 57px;
 }
 
 .number-controls {
@@ -211,7 +226,8 @@ h1 {
   top: 0;
   right: 0;
   width: 58px;
-  border-left: 1px solid #ddd;
+  border-left: 1px solid #000;
+  background: #FFFFFF;
 }
 
 .number-minus,
@@ -219,17 +235,27 @@ h1 {
   display: block;
   height: 27px;
   line-height: 27px;
-  background: #faf4f2;
+  background: #FFFFFF;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
   font-family: arial;
-  color: #3e1e02;
+  color: #000;
   text-decoration: none;
 }
 
 .number-plus {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #000;
+}
+
+.number-minus:hover,
+.number-plus:hover {
+  background: #FFFFFF;
+}
+
+.number-minus:active,
+.number-plus:active {
+  background: #FFFFFF;
 }
 
 .number-text {
@@ -239,8 +265,12 @@ h1 {
   width: 33px;
   height: 55px;
   line-height: 55px;
-  font-size: 14px;
-  color: #29160a;
+  font-size: 24px;
+  color: #000;
+  font-weight: 500;
+  font-family: roboto;
+  font-family: roboto;
+  color: #000;
   background: #fff;
   outline: none;
   border: none;
@@ -250,7 +280,7 @@ h1 {
 .number-unit {
   display: inline-block;
   font-size: 13px;
-  color: #29160a;
+  color: #000;
   line-height: 55px;
   height: 55px;
 }/*# sourceMappingURL=style.css.map */
