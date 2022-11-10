@@ -124,17 +124,19 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
 }
-.best h2 {
+
+h2 {
   font-size: 43px;
   color: #0D0402;
   font-weight: 600;
   font-family: "Josefin Sans", sans-serif;
 }
-.best .slade {
+
+.slade {
   margin: 10px;
 }
 
-.txt {
+.txt, .gallery-txt {
   font-size: 18px;
   color: #0D0402;
   font-weight: 400;
@@ -219,6 +221,7 @@ h1 {
   width: 114px;
   border: 1px solid #000;
   height: 57px;
+  border-radius: 5px;
 }
 
 .number-controls {
@@ -283,4 +286,29 @@ h1 {
   color: #000;
   line-height: 55px;
   height: 55px;
+}
+
+.gallery {
+  padding: 140px 147px 60px 147px;
+}
+.gallery h2, .gallery p {
+  text-align: center;
+}
+.gallery .img4, .gallery .img6 {
+  margin-top: 60px;
+}
+.gallery .img5 {
+  margin-top: -40px;
+}
+.gallery .img8 {
+  margin-top: -70px;
+}
+.gallery .img7, .gallery .img9 {
+  margin-top: 30px;
+}
+.gallery .imgs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */

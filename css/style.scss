@@ -119,7 +119,7 @@ h1 {
 }
 
 .best {
-    @include fb();
+    @include fb();}
 
     h2 {
         @include font(43px, $bg, 600, $font-josefin);
@@ -128,9 +128,9 @@ h1 {
     .slade {
         margin: 10px;
     }
-}
 
-.txt {
+
+.txt,.gallery-txt {
     @include font(18px, $bg, 400, $font-open);
     margin-top: 20px;
 }
@@ -206,6 +206,7 @@ margin-top: 60px;}
     width: 114px;
     border: 1px solid #000;
     height: 57px;
+    border-radius: 5px;
 }
 
 .number-controls {
@@ -271,3 +272,30 @@ margin-top: 60px;}
     line-height: 55px;
     height: 55px;
 }
+.gallery{
+    padding: 140px 147px 60px 147px;
+    h2,p{
+        text-align: center;
+    }
+    .img4,.img6{
+        margin-top: 60px;
+    }
+    .img5{
+        margin-top: -40px;
+    }
+    .img8{
+        margin-top: -70px;
+
+    }
+    .img7,.img9{
+        margin-top: 30px;
+    }
+    .imgs{
+        @include fa();
+    }
+}
+
+
+
+
+
